@@ -215,3 +215,5 @@ noremap <right> <nop>
 "ruby test stuff
 let g:rubytest_cmd_test = "bundle exec spring testunit %p"
 let g:rubytest_cmd_testcase = "bundle exec spring testunit %p -n '/%c/'"
+
+nnoremap <F5> :buffers<CR>:buffer<Space>
