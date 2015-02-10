@@ -211,6 +211,10 @@ noremap <down> <nop>
 noremap <left> <nop>
 noremap <right> <nop>
 
+nnoremap <C-J> <C-W><C-J>
+nnoremap <C-K> <C-W><C-K>
+nnoremap <C-L> <C-W><C-L>
+nnoremap <C-H> <C-W><C-H>
 
 "ruby test stuff
 let g:rubytest_cmd_test = "bundle exec spring testunit %p"
